@@ -1,5 +1,5 @@
 #Semana 1
-Diferença entre predizao e previsao
+Diferença entre prediçao e previsao
 previsao é prever algo atraves de uma analise e usando logica
 predizao já é algo mais intuitivo se utilizando de algo mais mistico 
 Diferença de um sistema de reconhecimento para SAD(Sistema de apoio)
