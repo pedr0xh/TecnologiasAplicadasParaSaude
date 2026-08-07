@@ -1,45 +1,40 @@
-<<<<<<< HEAD
-#Semana 1
-Diferença entre prediçao e previsao
-previsao é prever algo atraves de uma analise e usando logica
-predizao já é algo mais intuitivo se utilizando de algo mais mistico 
-Diferença de um sistema de reconhecimento para SAD(Sistema de apoio)
-Sistema de recomendação mostra itens e conteudos com base nos gostos e dados analisados de alguem 
-SAD Ajuda profissionais a dar recomendações com base no seu conhecimento 
-=======
-# 📚 Anotações - Inteligência Artificial na Saúde
+# 📚 Anotações - Inteligência Artificial Aplicada à Saúde
 
-## 📅 Semana 1
+---
 
-### Diferença entre Predição e Previsão
+# 📅 Semana 1
+
+## Diferença entre Predição e Previsão
 
 - **Previsão:** estimativa de um evento futuro baseada em análise de dados, lógica, modelos matemáticos e estatísticos.
-- **Predição:** inferência de um resultado a partir de padrões encontrados nos dados por modelos de IA e aprendizado de máquina.
+- **Predição:** inferência de um resultado a partir de padrões encontrados nos dados por modelos de Inteligência Artificial e Aprendizado de Máquina.
 
-> **Resumo:** ambos estimam eventos futuros, porém a predição está mais associada à Inteligência Artificial e ao Machine Learning.
-
----
-
-### Sistema de Reconhecimento × Sistema de Apoio à Decisão (SAD)
-
-- **Sistema de Reconhecimento**
-  - Identifica padrões em grandes volumes de dados.
-  - Utiliza algoritmos de aprendizado de máquina e redes neurais.
-  - Exemplo: reconhecimento de imagens médicas.
-
-- **Sistema de Apoio à Decisão (SAD)**
-  - Auxilia profissionais na tomada de decisão.
-  - Gera recomendações com base em conhecimento especializado e dados analisados.
-  - O profissional continua sendo o responsável pela decisão final.
+> **Resumo:** ambos estimam acontecimentos futuros. Na IA, a predição normalmente utiliza modelos treinados com dados.
 
 ---
 
-### Sistema de Recomendação × Sistema de Apoio à Decisão
+## Sistema de Reconhecimento × Sistema de Apoio à Decisão (SAD)
+
+### Sistema de Reconhecimento
+
+- Identifica padrões em grandes volumes de dados.
+- Utiliza algoritmos de aprendizado de máquina e redes neurais.
+- Exemplo: reconhecimento de imagens médicas.
+
+### Sistema de Apoio à Decisão (SAD)
+
+- Auxilia profissionais na tomada de decisões.
+- Gera recomendações com base em conhecimento especializado e dados analisados.
+- O profissional continua responsável pela decisão final.
+
+---
+
+## Sistema de Recomendação × Sistema de Apoio à Decisão
 
 | Sistema de Recomendação | Sistema de Apoio à Decisão (SAD) |
 |--------------------------|-----------------------------------|
-| Recomenda itens ou conteúdos com base no perfil e histórico do usuário. | Auxilia especialistas na tomada de decisões com base em dados e conhecimento. |
-| Muito utilizado em plataformas digitais. | Muito utilizado nas áreas da saúde, indústria e negócios. |
+| Recomenda itens, conteúdos ou ações com base no perfil e histórico do usuário. | Auxilia especialistas na tomada de decisões utilizando conhecimento e análise de dados. |
+| Voltado ao usuário final. | Voltado ao apoio de profissionais. |
 
 ---
 
@@ -51,14 +46,17 @@ SAD Ajuda profissionais a dar recomendações com base no seu conhecimento
 
 ```text
 KDD (Descoberta de Conhecimento em Bases de Dados)
+│
 └── Data Mining (Mineração de Dados)
+    │
     └── Pattern Recognition (Reconhecimento de Padrões)
+        │
         ├── Sistemas de Predição
         └── Sistemas de Previsão
 ```
 
 - Utilizam matemática e estatística.
-- Empregam técnicas de Inteligência Artificial para identificar padrões.
+- Empregam técnicas de Inteligência Artificial para reconhecer padrões.
 
 ---
 
@@ -70,7 +68,7 @@ Utilizadas principalmente para reconhecimento de padrões e aprendizado com gran
 
 ### Características
 
-- Base de conhecimento composta por amostras de treinamento.
+- Base de conhecimento formada por amostras de treinamento.
 - Reconhecimento de padrões.
 - Raciocínio automatizado.
 - Aprendizado de Máquina (Machine Learning).
@@ -81,11 +79,12 @@ Utilizadas principalmente para reconhecimento de padrões e aprendizado com gran
 
 Permite que computadores compreendam, interpretem e processem a linguagem humana.
 
-Exemplos:
+### Exemplos
+
 - Chatbots
+- Assistentes virtuais
 - Tradução automática
 - Análise de textos
-- Assistentes virtuais
 
 ---
 
@@ -93,7 +92,8 @@ Exemplos:
 
 Conjunto de agentes inteligentes que trabalham de forma cooperativa ou distribuída para resolver problemas.
 
-Aplicações:
+### Aplicações
+
 - Robótica
 - Logística
 - Saúde
@@ -105,27 +105,28 @@ Aplicações:
 
 ## Medicina, Odontologia e Psicologia
 
-### Principais aplicações
+### Aplicações
 
 - Diagnóstico
-- Sistemas de recomendação para apoio ao profissional
+- Sistemas de recomendação
+- Apoio à decisão
 
 ---
 
 ## Enfermagem
 
-### Principais aplicações
+### Aplicações
 
 - Monitoramento de pacientes
 - Sensoriamento
-- Automação de procedimentos
+- Automação
 - Atuação baseada em sensores
 
 ---
 
 ## Farmácia, Biomedicina e Química
 
-### Principais aplicações
+### Aplicações
 
 - Predição
 - Previsão
@@ -133,16 +134,18 @@ Aplicações:
 
 ---
 
-# ⚙️ Operações realizadas pela IA
+# ⚙️ Operações Realizadas pela IA
 
 ## Diagnóstico
 
 Objetivo:
+
 - Reconhecer padrões em grandes volumes de dados.
 
-Tecnologias utilizadas:
-- Aprendizado de Máquina
-- Redes Neurais
+Tecnologias:
+
+- Redes neurais
+- Aprendizado de máquina
 - Reconhecimento de padrões
 
 ---
@@ -150,9 +153,11 @@ Tecnologias utilizadas:
 ## Monitoramento e Sensoriamento
 
 Objetivo:
+
 - Acompanhar pacientes ou processos em tempo real.
 
 Tecnologias:
+
 - Sensores
 - Automação
 - Sistemas inteligentes
@@ -162,11 +167,13 @@ Tecnologias:
 ## Predição e Previsão
 
 Objetivo:
-- Estimar eventos futuros a partir de dados históricos.
+
+- Estimar eventos futuros utilizando dados históricos.
 
 Tecnologias:
+
 - Reconhecimento de padrões
-- Mineração de Dados
+- Mineração de dados
 - Algoritmos de IA
 
 ---
@@ -174,16 +181,18 @@ Tecnologias:
 ## Recomendação
 
 Objetivo:
-- Sugerir ações ou tratamentos com base nos resultados de predição e previsão.
+
+- Sugerir ações ou tratamentos com base nos resultados obtidos por sistemas de predição e previsão.
 
 Exemplos:
+
 - Recomendações médicas.
 - Sugestão de medicamentos.
 - Apoio ao diagnóstico.
 
 ---
 
-# 📝 Conceitos importantes
+# 📝 Conceitos Importantes
 
 ## Sistema de Apoio à Decisão (SAD)
 
@@ -197,7 +206,38 @@ Exemplos:
 
 - Sugere opções ao usuário.
 - Utiliza histórico, preferências e padrões encontrados nos dados.
-- Muito comum em plataformas digitais e também em aplicações da saúde.
+- Muito utilizado em plataformas digitais e também na área da saúde.
 
 ---
->>>>>>> 6e73be5 (Adição de alguns pontos importantes e organizão do arquivo)
+
+# 📌 Resumo Geral
+
+```text
+Inteligência Artificial
+│
+├── Redes Neurais
+│   ├── Base de treinamento
+│   ├── Reconhecimento de padrões
+│   ├── Aprendizado de Máquina
+│   └── Raciocínio automatizado
+│
+├── Processamento de Linguagem Natural (PLN)
+│
+└── Sistemas Multiagentes
+
+Aplicações na Saúde
+│
+├── Medicina / Odontologia / Psicologia
+│   ├── Diagnóstico
+│   └── Recomendação
+│
+├── Enfermagem
+│   ├── Monitoramento
+│   ├── Sensoriamento
+│   └── Automação
+│
+└── Farmácia / Biomedicina / Química
+    ├── Predição
+    ├── Previsão
+    └── Recomendação
+```
