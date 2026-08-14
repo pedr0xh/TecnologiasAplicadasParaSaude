@@ -210,6 +210,51 @@ Exemplos:
 
 ---
 
+# 📅 Semana 3
+
+## Modelos Pré-Treinados
+
+Modelos pré-treinados são modelos de Inteligência Artificial que já passaram por uma etapa de treinamento utilizando uma grande quantidade de dados.
+
+Na teoria de **Redes Neurais Artificiais (RNA)**, o treinamento envolve o uso de amostras para realizar ajustes nos pesos da rede até que o modelo consiga reconhecer os padrões desejados.
+
+---
+
+## Treinamento de um Modelo
+
+Para realizar o treinamento, é necessário definir:
+
+- **Regra de negócio:** define quais atributos e informações serão avaliados.
+- **Base de dados:** fonte das amostras utilizadas no treinamento.
+- **Preparação dos dados:** organização e padronização dos dados antes do treinamento.
+- **Tipo de problema:** definir se o objetivo é realizar **predição** ou **previsão**.
+
+---
+
+## Base de Dados
+
+Os dados utilizados para treinamento podem ser obtidos de diferentes fontes:
+
+- Bancos de dados (BD)
+- Arquivos CSV
+- Outras fontes de dados
+
+### ETL
+
+O processo de **ETL (Extração, Transformação e Carga)** é utilizado para preparar os dados antes de serem utilizados pelo modelo.
+
+```text
+ETL
+│
+├── Extração
+│   └── Obtenção dos dados
+│
+├── Transformação
+│   └── Limpeza e padronização
+│
+└── Carga
+    └── Disponibilização dos dados
+
 # 📌 Resumo Geral
 
 ```text
